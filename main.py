@@ -42,7 +42,7 @@ def load_LLM(openai_api_key):
     # Make sure your openai_api_key is set as an environment variable
     llm = OpenAI(temperature=.5, openai_api_key=openai_api_key)
     return llm
-st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
+st.set_page_config(page_title="Fix Your Email", page_icon=":robot:")
 st.header("Globalize Text")
 
 col1, col2 = st.columns(2)
@@ -54,7 +54,7 @@ with col1:
                 [@GregKamradt](https://twitter.com/GregKamradt). \n\n View Source Code on [Github](https://github.com/gkamradt/globalize-text-streamlit/blob/main/main.py)")
 
 with col2:
-    st.image(image='TweetScreenshot.png', width=500, caption='https://twitter.com/DannyRichman/status/1598254671591723008')
+    st.image(image='TweetScreenshot.png', width=350, caption='https://twitter.com/DannyRichman/status/1598254671591723008')
 
 st.markdown("## Enter Your Email To Convert")
 
